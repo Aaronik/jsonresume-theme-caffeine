@@ -34,7 +34,11 @@ bower_components
 .tmp
 
 # Public folder from build
-public
+# Removed because my mac (apple M3 chip) is having a lot of troubel building this, particularly
+# around gulp-sass, which I'd prefer not to deal with. I believe it'll require installing
+# dart-sass, which I'm sure is doablle, but I just don't want to do. So the idea is to build
+# this on linux and use it on mac.
+# public
 
 # Keep your personal resume.json private and any generated pdf's
 resume.json
